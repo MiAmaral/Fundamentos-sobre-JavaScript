@@ -1,4 +1,4 @@
-## ✨ Projeto desenvolvido para estudo do JavaScript e JQuery, promovido pelo programa START da Capgemini e elaborado pela ProWay ✨
+## ✨ Projeto desenvolvido para estudo do JavaScript, promovido pelo programa START da Capgemini e elaborado pela ProWay ✨
 
 ### 📝  JavaScript é uma linguagem de programação de alto nível, dinâmica e interpretada que é amplamente usada para criar páginas web interativas e aplicações web. É uma das principais linguagens de programação da web e é executada no lado do cliente (navegador do usuário) e no lado do servidor (servidor web). JavaScript é conhecido por sua capacidade de manipular e controlar o conteúdo da página web, permitindo a criação de animações, efeitos visuais e interações de usuário.
 
