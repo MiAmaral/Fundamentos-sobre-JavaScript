@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Seletor HTML</title>
+        
+        <!-- JavaScript -->
+        <script>
+            // Variável
+            function acao(){
+            var curso = document.getElementsByTagName("h1")[1]; //Método get para pegar o elemento pelo nome da tag, selecionado com os colchetes a posição do elemento
+
+            alert(curso.innerHTML); //O innerHTML serve para selecionar apenas o conteúdo que estiver dentro da tag
+            }        
+            </script>
+    </head>
+
+    <body>
+        <button onclick="acao()">Selecionar</button>
+        <h1>JavaScript</h1>
+        <h1>HTML</h1>
+        <h1>CSS</h1>
+
+    </body>
+</html>

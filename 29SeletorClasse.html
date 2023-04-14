@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Seletor CLASSE</title>
+        
+        <!-- JavaScript -->
+        <script>
+            function exibirTexto(){
+
+                //Armazenando a tag com a classe texto
+                var campo = document.getElementsByClassName("texto")[1];//Método get para selecionar a classe texto, selecionado com os colchetes a posição do elemento
+
+                // Exibindo o conteúdo
+                alert(campo.innerHTML);
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <button onclick="exibirTexto()">Clique aqui</button>
+
+        <h1 class="texto"> Título em H1 </h1>
+        <h2 class="texto">Título em H2 </h2>
+        <p class="texto"> Parágrafo </p>
+
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estrutura Base</title>
+        
+        <!-- JavaScript -->
+        <script>
+            //Função
+            function exibirConteudo(){
+                //Variável - obter dados do id CAMPO
+                var campo = document. getElementById("campo");// No método getElementById não é necessário colocar a posição do elemento
+
+                //Exibir o conteúdo
+                alert(campo.value); // A propriedade .value permite tanto obter uma informação, quanto atribuir uma informação
+
+                //Apagar o conteúdo utilizando o .value
+                campo.value = "";
+            }
+
+        </script>
+    </head>
+
+    <body>
+
+        <input type="text" id="campo">
+        <button onclick="exibirConteudo()">Clique aqui</button>
+        
+    </body>
+</html>

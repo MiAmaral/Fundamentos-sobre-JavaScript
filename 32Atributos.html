@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atributos</title>
+        
+        <!-- JavaScript -->
+        <script>
+            //Essa função é importante para alterar atributos dentro das tags html, após alguma ação do usuário, por exemplo, apertar um botão
+            
+            function alterarLink(){
+
+                //Obter o link
+                var link = document.getElementsByTagName("a")[0];
+
+                //Alterar o link
+                link.href = "http://linkedin.com.br";
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <!-- href é atributo/complementação da tag <a> -->
+ 
+        <a href="http://google.com"> Clique aqui </a> 
+        <button onclick="alterarLink()"> Alterar Link </button>
+        
+    </body>
+</html>

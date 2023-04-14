@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Evento de Teclado</title>
+        
+        <!-- JavaScript -->
+        <script>
+            /* 3 tipos de evento de teclado:
+            - onKeyUp: Exibe o caractere e depois executa ação
+            - onKeyDown: Executa a ação e depois exibe o caractere
+            - onKeyPress: Executa a ação e depois exibe o caractere. Não tem suporte as seguintes teclas: F1...F12, ALT, CTRL, SHIFT..
+            */
+            function exibir(){
+                //Obter o valor do campo texto
+                var camp= document.getElementById("campo").value;
+                //Exibir o conteúdo digitado no campo
+                alert(camp);
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <input type="text" id="campo" onkeyup="exibir()">
+    </body>
+</html>
